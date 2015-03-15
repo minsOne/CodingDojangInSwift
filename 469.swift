@@ -8,6 +8,9 @@ let mosTable: [String:String] = [".-":"A","-...":"B","-.-.":"C","-..":"D",".":"E
 
 var mosSignalStream = ".... .  ... .-.. . . .--. ...  . .- .-. .-.. -.--"
 
+
+// MARK: O(n)으로 풀 경우
+
 extension String {
   
   subscript (i: Int) -> Character {
@@ -49,6 +52,8 @@ for var index = 0; index < countElements(mosSignalStream); index++ {
 }
 println("Translate Result : \(totalWord)")
 
+
+// MARK: High Order Function으로 풀 경우
 
 let mosSignalSigalArray = mosSignalStream.componentsSeparatedByString("  ")
 
