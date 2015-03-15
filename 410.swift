@@ -2,10 +2,6 @@
 import Foundation
 
 extension String {
-  
-  subscript (i: Int) -> Character {
-    return self[advance(self.startIndex, i)]
-  }
   subscript (i: Int) -> String {
     return String(self[advance(self.startIndex, i)])
   }
