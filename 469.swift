@@ -1,3 +1,5 @@
+// MARK : URL - http://codingdojang.com/scode/469
+
 import Foundation
 
 let mosTable: [String:String] = [".-":"A","-...":"B","-.-.":"C","-..":"D",".":"E","..-.":"F",

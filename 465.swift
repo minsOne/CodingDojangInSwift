@@ -1,3 +1,5 @@
+// MARK : URL - http://codingdojang.com/scode/465
+
 import Foundation
 
 func partition(array: [String]) -> [[String]] {
